@@ -20,6 +20,26 @@
       background-color: #0f172a; /* dark slate */
       color: #f1f5f9; /* light slate */
     }
+
+    .underline-animate {
+  position: relative;
+  color: #34d399; /* Tailwind green-400 */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.underline-animate::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: #34d399;
+  transition: width 0.3s;
+}
+.underline-animate:hover::after {
+  width: 100%;
+}
   </style>
 </head>
 
@@ -65,22 +85,25 @@
       <div class="bg-slate-900 p-4 rounded-lg shadow-lg">
         <img src="Screenshot 2025-07-26 145034.png" alt="PixelLab Website Replica" class="rounded mb-4">
         <h3 class="text-xl font-bold text-green-300">EAZYRENT WEBSITE</h3>
-        <p class="mt-2">A Website made to make hose renting in Nigeria esaier by bringing tenats to landlords and vice versa while eliminating exagerated agent prices</p>
+        <p class="mt-2">A Website made for those renting in Nigeria esaier by bringing tenats to landlords and vice versa while eliminating exagerated agent prices</p>
         <!-- Add live link later if hosted -->
       </div>
       <!-- Project Card -->
-      <div class="bg-slate-900 p-4 rounded-lg shadow-lg">
-        <img src="Screenshot edited.PNG" alt="PixelLab Website Replica" class="rounded mb-4">
-        <h3 class="text-xl font-bold text-green-300">EAZYRENT WEBSITE</h3>
-        <p class="mt-2">A Website made to make hose renting in Nigeria esaier by bringing tenats to landlords and vice versa while eliminating exagerated agent prices</p>
-        <p class="mt-2"><a href="https://marvelous17-ai.github.io/EAZYRENT/">Click Here To View</a></p>
-        <!-- Add live link later if hosted -->
+     <div class="bg-slate-900 p-4 rounded-lg shadow-lg">
+       <img src="Screenshot edited.PNG" alt="PixelLab Website Replica" class="rounded mb-4">
+       <h3 class="text-xl font-bold text-green-300">EAZYRENT WEBSITE</h3>
+       <p class="mt-2">A Website made to make hose renting in Nigeria esaier by bringing tenats to landlords and vice versa while eliminating exagerated agent prices</p>
+       <p class="mt-2">
+         <a href="https://marvelous17-ai.github.io/EAZYRENT/" class="underline-animate">Click Here To View</a>
+      </p>
+  <!-- Add live link later if hosted -->
+</div>
       </div>
       <!-- Project Card -->
       <div class="bg-slate-900 p-4 rounded-lg shadow-lg">
         <img src="Screenshot edited-2.PNG" alt="PixelLab Website Replica" class="rounded mb-4">
         <h3 class="text-xl font-bold text-green-300">EAZYRENT</h3>
-        <p class="mt-2">A Website made to make hose renting in Nigeria esaier by bringing tenats to landlords and vice versa while eliminating exagerated agent prices</p>
+        <p class="mt-2">A Website made for those renting in Nigeria esaier by bringing tenats to landlords and vice versa while eliminating exagerated agent prices</p>
         <!-- Add live link later if hosted -->
       </div>
       <!-- Project Card -->
